@@ -1,0 +1,36 @@
+<section class="flight-search-wrapper">
+	<div class="container">
+		<form action="flightdetails.php" method="post" id="byFlight-form" class="has-validation-callback">
+			<div class="row">
+				<div class="col-md-3">
+					<label for="airlineName">Airline Name/Code</label>
+					<input type="text" class="form-control" name="airlineName" id="airlineName" required="true" value="____" placeholder="">
+				</div>
+				<div class="col-md-3">
+					<label for="flightNumber">Flight Number</label>
+					<input type="text" class="form-control" name="flightNumber" id="flightNumbers" required="true" value="____" placeholder="">
+				</div>
+				<div class="col-md-3">
+					<label for="date">Departure Date</label>
+					<input type="text" class="form-control" name="date" id="date" required="true" value="____" placeholder="">
+				</div>
+				<div class="col-md-3">
+					<label for="flightSerachNumber">&nbsp;</label>
+					<button type="submit" class="btn btn-danger btn-block" name="flightSerachNumber" name="1" id="flightSerachNumber">SEARCH FLIGHT</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</section>
+
+<section class="flight-main-wrapper">
+<div class="container-fluid flight-upper-wrapper">
+	<h3>__flightName__ __flightCode__ __flightNumber__</h3>
+	<h5 class="flight-grey-color font-weight-bold">__flightCount__ flight(s) found</h5>
+	<p class="flight-wrapper-date">__searchDate__</p>
+</div>
+
+<div class="panel-group" id="accordion">
+	__FLIGHTROWS__
+</div>
+</section>

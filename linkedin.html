@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="//platform.linkedin.com/in.js">
+        api_key: 751jtbzbyzen5x
+        authorize: true
+        onLoad: onLinkedInLoad
+        </script>
+        
+    </head>
+    <body>
+        <script type="in/Login"></script>
+        <div id="result"></div>
+    </body>
+</html>
+
+<script type="text/javascript">
+    
+  // Setup an event listener to make an API call once auth is complete
+    function onLinkedInLoad() {
+      IN.Event.on(IN, "auth", shareContent);
+    }
+
+  // Handle the successful return from the API call
+  function onSuccess(data) {
+   document.getElementById("result").innerHTML = "Shared successfully.Please click <a href='https://www.murgencyairportassistance.com/close.html'>here</a> to close the window."
+  }
+
+  // Handle an error response from the API call
+  function onError(error) {
+    console.log(error);
+  }
+
+  // Use the API call wrapper to share content on LinkedIn
+  function shareContent() {
+        
+    // Build the JSON payload containing the content to be shared
+    var payload = { 
+    	"content":{
+    	"title":"MUrgency Airport Assistance",
+    	"description":"MUrgency Airport Assistance Offers wide range of personalized airport assistance services worldwide, including meet and greet, fast track, VIP or any special need both pre-scheduled and in emergencies.",
+    	"submitted-url":"https://www.MUrgencyairportassistance.com",
+    	"submitted-image-url":"http://www.emergencyairportassistance.com/image/fb_logo_image.png"
+    	},    
+      "visibility": { 
+        "code": "anyone"
+      } 
+    };
+
+    IN.API.Raw("/people/~/shares?format=json")
+      .method("POST")
+      .body(JSON.stringify(payload))
+      .result(onSuccess)
+      .error(onError);
+  }
+
+</script>

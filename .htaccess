@@ -1,0 +1,9 @@
+RewriteEngine On
+Options -Indexes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteCond %{HTTP_HOST} ^murgencyairportassistance.com [NC]
+RewriteRule ^(.*)$ https://www.murgencyairportassistance.com/$1 [L,R=301]
+
+RewriteRule ^blog/([^/]+)/([^/]+)/?$ blogcomment.php?title=$2&id=$1 [NC,QSA,L]

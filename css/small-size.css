@@ -1,0 +1,1705 @@
+/**
+ * Created by PhpStorm.
+ * User: Adil
+ * Date: 3/7/2017
+ * Time: 12:05 PM
+ */
+
+/*............  MEDIA CODE..........*/
+
+@media only screen and (max-width: 319px) {
+    .gift-text {
+        margin-top: 0%;
+    }
+
+    .gift-title {
+        width: 90%;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .gift-p {
+
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .btn-gift.btn-small {
+
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    .buy-text {
+        font-size: 12px;
+    }
+
+    .select-text {
+        font-size: 14px;
+    }
+
+    .send-text {
+        font-size: 12px;
+    }
+
+    .btn-subscribe {
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .gift-text {
+        margin-top: -6%;
+    }
+
+    .gift-title {
+        width: 95%;
+        font-size: 22px;
+        margin-left: 10px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .gift-p {
+
+        margin-left: 14px;
+        font-size: 14px;
+    }
+
+    .btn-gift.btn-small {
+
+        margin-left: 10px;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+
+    .buy-text {
+        font-size: 12px;
+    }
+
+    .select-text {
+        font-size: 14px;
+    }
+
+    .send-text {
+        font-size: 12px;
+    }
+
+    .btn-subscribe {
+        margin-top: 5px;
+        margin-left: 28px;
+    }
+
+    .gift_image_res {
+        text-align: center;
+    }
+
+    #default_image {
+        text-align: center;
+    }
+
+    .gc_title {
+        text-align: center;
+        padding-left: 0;
+        font-size: 14px;
+    }
+
+    .cart_count {
+        padding: 6px 12px !important;
+        margin-top: -90px;
+    }
+
+    .btn-card.btn-small {
+        font-size: 11px;
+    }
+
+    .gc_subtitle {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .gc_form h5 {
+        padding-left: 0;
+        text-align: center;
+    }
+    .gc_form textarea {
+        margin-bottom: 25px;
+    }
+    .gc-img-selected {
+        width: 180px;
+        height: 120px;
+    }
+    .gift_mt-10 {
+        margin-top: 10px;
+    }
+    .amount_li {
+        font-size: 12px;
+    }
+    .message_div {
+        font-size: 12px;
+    }
+    .btn-card.btn-amount {
+        width: 60px;
+    }
+    .amount_span {
+        padding-left: 0;
+    }
+    .amount200_span {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .select-amt {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .gc_form input[type="text"].input-sm, .gc_form input[type="email"].input-sm {
+        font-size: 12px;
+    }
+    .select-dollar {
+        width: 280px;
+        padding-left: 0px;
+    }
+    .subs-dialog {
+        margin: 25% auto !important;
+    }
+
+    .subs-content {
+        background-color: #fff;
+        background-image: none !important;
+        padding: 10px 15px !important;
+    }
+
+    .btn-news.btn-subs {
+        margin-left: -5px;
+        padding: 6px !important;
+    }
+    .arabhealth_landing_banner >h2{
+        margin-top: -50px;
+    }
+    .arabhealth_landing_banner >h3{
+        font-size: 12px;
+        margin-top: -330px;
+        margin-left:-100px;
+    }
+    .arabhealth_landing_banner > a{
+        margin-top: -380px;
+        margin-left: -100px;
+        padding: 5px 10px 5px 10px;
+        font-size: 10px;
+    }
+    .ArabHealth_campaign_content{
+        height: 450px!important;
+    }
+    .downContainer{
+        padding-top: 180px;
+    }
+}
+@media only screen and (max-width : 600px){
+    .arabhealth_landing_banner >h3{
+        font-size: 16px;
+        margin-top: -280px;
+        margin-left:-100px;
+    }
+    .arabhealth_landing_banner > a{
+        margin-top: -320px;
+        margin-left: -100px;
+        padding: 5px 10px 5px 10px;
+    }
+    
+
+}
+@media only screen and (max-width : 720px){
+    .arabhealth_landing_banner >h2{
+        font-size: 18px;
+        margin-top:50px;
+    }
+    .arabhealth_landing_banner >h3{
+        font-size: 16px;
+        margin-top: -230px;
+        margin-left:-100px;
+    }
+    .arabhealth_landing_banner > a{
+        margin-top: -260px;
+        margin-left: -100px;
+        padding: 5px 10px 5px 10px;
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        padding-top: 50%;
+        padding-bottom: 20%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/landing.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .blog-subpage {
+        padding-top: 50%;
+        padding-bottom: 10%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/blog.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .airportserved-subpage {
+        padding-top: 50%;
+        padding-bottom: 10%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/airport_served.PNG) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .service-subpage {
+        padding-top: 50%;
+        padding-bottom: 10%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/services.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .faq-subpage {
+        padding-top: 50%;
+        padding-bottom: 10%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/banner_inner.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .contact-subpage {
+        padding-top: 50%;
+        padding-bottom: 10%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/banner_inner.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .gh-subpage {
+        padding-top: 50%;
+        padding-bottom: 10%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/gh.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .landing-text-background-colour {
+        width: 300px;
+        margin: 0px auto;
+        background: url(../image/text_bg.png) no-repeat center center scroll;
+        border-radius: 10px;
+    }
+
+    /*.header_travel {
+        padding-top: 48%;
+        padding-bottom: 18%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/agentmain.png) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }*/
+
+    #locations #address-section {
+        background: url(../image/location.svg) 70px top no-repeat;
+    }
+
+    #locations #address-section .mail {
+        background: url(../image/mail.png) 73px top no-repeat;
+    }
+
+    #locations #address-section .num {
+        background: url(../image/icon-phone.png) 73px top no-repeat;
+        display: block;
+    }
+
+    #locations .ad-section {
+        padding-top: 0;
+    }
+
+    .landing-text-background-colour_travel {
+        width: 288px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 88px;
+        margin-left: 14px;
+    }
+
+    .register_button-travel {
+        float: right;
+        border: none !important;;
+        background: #e24449 !important;
+        color: #fff !important;
+        margin-right: 0px;
+    }
+
+    .text-vertical-center h1 {
+        font-size: 20px;
+    }
+
+    .show_phone {
+        display: block;
+        text-align: center;
+    }
+
+    .show_others {
+        display: none;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .inetial_text {
+        font-size: 16px;
+    }
+
+    .fixed {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .mobile_nav_color {
+        background-color: rgba(54, 73, 88, 0.9);
+    }
+
+    .padding-left {
+        padding-left: 15px;
+    }
+
+    .padding-left-airport-served {
+        padding-left: 30px;
+    }
+
+    .btn-info {
+        padding: 0px;
+    }
+
+    .center-block {
+        height: 35px;
+    }
+
+    .img-width {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .main_title_mobile {
+        display: block;
+    }
+
+    .main_title {
+        display: none;
+    }
+
+    .xs-font {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .stamp-top {
+        padding-top: 30px;
+        margin-left: -20px;
+    }
+
+    .xs_footer {
+        margin-left: 75px;
+    }
+
+    .dropdown-menu {
+        background-color: rgba(54, 73, 88, 0.9) !important;
+    }
+
+    .margin_corpo-top {
+        margin-top: 15px;
+    }
+
+    .landing-text-background-colour-corporate {
+        width: 220px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 110px;
+        padding-left: 15px;
+    }
+
+    .corpo-banner-text {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .corpo-banner-text-subtext {
+        font-size: 14px;
+    }
+
+    .corpo-mobile-field {
+        margin-right: 20px !important;
+    }
+
+    .corpo_note {
+        font-size: 14px;
+    }
+
+    .image-corpo-sub {
+        width: 80px;
+        height: 80px;
+        margin-left: 110px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .landing_image_text {
+        color: #C00F0F;
+        margin-left: 2px;
+        font-size: 14px;
+    }
+
+    .landing_image_text1 {
+        color: #696666;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .landing_image_text_H1 {
+        color: #4D4A4A;
+        float: left;
+        margin-left: 18px;
+        font-size: 20px;
+    }
+
+    .image-travel-sub {
+        width: 80px;
+        height: 80px;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .travel_mobile {
+        margin-right: 15px !important;
+    }
+
+    .travel-mobile-field {
+        margin-right: 20px !important;
+    }
+
+    .travel_note {
+        font-size: 14px;
+    }
+
+    .responder-mobile-field {
+        margin-right: 20px !important;
+    }
+
+    .margin_responder-top {
+        margin-top: 15px;
+    }
+
+    .landing-text-background-colour-responder {
+        width: 250px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 110px;
+        padding-left: 15px;
+    }
+
+    .responder-banner-text {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    .responder-banner-text-subtext {
+        font-size: 18px;
+    }
+
+    .responder_note {
+        font-size: 14px;
+    }
+
+    .image-responder-sub {
+        width: 90px;
+        height: 90px;
+        margin-left: 105px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #locations {
+        text-align: center;
+    }
+
+    .mobile-form-number {
+        width: 103%;
+        margin: 23px;
+        margin-left: 5px;
+        margin-top: 11px;
+    }
+
+    .mobile-form-number-travel {
+        width: 100%;
+        margin: 23px;
+        margin-left: 0px;
+        margin-top: 11px;
+    }
+
+    #mobileCode {
+        width: 83px;
+    }
+
+    .register_button-corpo {
+        margin-right: -50px;
+    }
+
+    .Register-form {
+        width: 89%;
+        margin-left: 5%;
+    }
+
+    .mobile_width {
+        width: 114%;
+        margin-left: 7px;
+    }
+
+    .mobile-form-number-register {
+        width: 103%;
+        margin: 23px;
+        margin-left: -11px;
+        margin-top: 11px;
+    }
+
+    .mobile_width_responder {
+        margin-left: 10px;
+        width: 110%;
+    }
+
+    .register_button-responder {
+        margin-right: -28px;
+    }
+
+    .Register-form {
+        width: 98%;
+        margin-left: 2%;
+    }
+
+    .mobile-width {
+        width: 48%;
+    }
+
+    .travel_field_lastname {
+        margin-top: 14px;
+    }
+    .gift-text {
+        margin-top: -12%;
+    }
+
+    .gift-title {
+        width: 70%;
+        font-size: 24px;
+        margin-left: 26px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .gift-p {
+
+        margin-left: 28px;
+        font-size: 14px;
+    }
+
+    .btn-gift.btn-small {
+
+        margin-left: 26px;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+
+    .buy-text {
+        font-size: 16px;
+    }
+
+    .select-text {
+        font-size: 20px;
+    }
+
+    .send-text {
+        font-size: 16px;
+    }
+
+    .btn-subscribe {
+        padding: 2px 5px;
+        margin-top: 1px;
+        font-size: 12px;
+    }
+
+    .gift_image_res {
+        text-align: center;
+    }
+
+    .gc_span {
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    #default_image {
+        text-align: center;
+    }
+    .text-align {
+        text-align: start;
+        margin-top: 10px;
+    }
+    .gift_email {
+        margin-top: 10px;
+    }
+    .giftImage {
+        width: 50px;
+    }
+    .table-striped {
+        font-size: 13px;
+    }
+    .work_with_us_form {
+        background-color: #495a68;
+        margin-top: 0px;
+    }
+}
+@media (min-width: 768px){
+    #quote-carousel {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+    }
+
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;
+    }
+
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+@media only screen and (max-width : 840px){
+    .arabhealth_landing_banner >h2{
+        font-size: 18px;
+        margin-top:50px;
+    }
+    .arabhealth_landing_banner >h3{
+        font-size: 16px;
+        margin-top: -180px;
+    }
+    .arabhealth_landing_banner > a{
+        margin-top: -210px;
+        padding: 8px 15px 8px 15px;
+    }
+}
+
+
+@media (max-width: 768px){
+    /*media query for flight status*/
+    .iataCode{
+        font-size: 14px;
+    }
+    .airNameNumber{
+        font-size: 18px;
+    }
+    input[type=range] {
+        -webkit-appearance: none;
+        -moz-appearance: inherit;
+        background-color: #D4D4D4;
+        height: 2px;
+        margin-top: 26px;
+        border:0 none;
+    }
+
+    .flightCityName{
+        font-size: 14px;
+    }
+    .flight-scheduled {
+        background-color: #0F9D58;
+        color: #fff;
+        font-weight: bold;
+        padding: 3px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+    .landedTime{
+        font-size: 13px;
+    }
+
+    .flight-down-wrapper {
+        background-color: #fff;
+        width: 100%;
+        padding: 10px 0px 0px 10px;
+        display: block;
+        margin: 5px auto;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        border-radius: 3px;
+    }
+    .cityTime{
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .flight-grey-color {
+        color: #A9A9A9 !important;
+        font-size: 13px;
+    }
+    .font-size14{
+        font-size: 14px;
+    }
+    .font-size16{
+        font-size: 16px;
+    }
+    .flight-green-color{
+        color:#0F9D58;
+        font-size: 14px;
+    }
+    .pad-l{
+        padding-left: 0px;
+    }
+    .hidebBorder{
+        border-bottom: 1px solid #a9a9a9;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .panel-body{
+        padding: 0;
+    }
+    .flight-search-wrapper{
+        width: 95%;
+    }
+    .flight-main-wrapper{
+        width:95%;
+    }
+    
+    .mt-mb{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .m-b{
+        margin-bottom: 10px;
+        width: 45%;
+        margin: 0 auto;
+    }
+    .flight-red-color{
+        color:#C82328;
+        font-size: 14px;
+    }
+    .font-size14{
+        font-size: 14px;
+    }
+   
+}
+
+@media screen and (min-width: 668px) and (max-width: 990px) {
+    .m-b{
+        margin-bottom: 10px;
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width : 960px){
+    .arabhealth_landing_banner >h2{
+        font-size: 25px;
+        margin-top:50px;
+    }
+    .arabhealth_landing_banner >h3{
+        font-size: 18px;
+        margin-top: -150px;
+    }
+    .arabhealth_landing_banner > a{
+        margin-top: -180px;
+        padding: 8px 15px 8px 15px;
+    }
+    .downContainer{
+        padding-top: 100px;
+    }
+    /*.header_travel {
+        padding-top: 28%;
+        padding-bottom: 44%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/agentmain.png) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }*/
+}
+@media (max-width: 991px) {
+    #locations .rit-wrap {
+        border-left: none;
+    }
+
+    #locations .rit-wrap .col-md-4,
+    #locations .rit-wrap .col-md-12 {
+        margin-left: -15px;
+    }
+    /*.header_travel {
+        padding-top: 28%;
+        padding-bottom: 44%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/agentmain.png) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }*/
+    #locations #address-section {
+        margin-bottom: 20px;
+    }
+    #locations #address-section .address-wrap p {
+        font: 300 15px/25px "Lato", sans-serif;
+    }
+}
+@media only screen and (max-width : 1024px){
+    .arabhealth_landing_banner >h2{
+        font-size: 25px;
+        margin-top:50px;
+    }
+    .arabhealth_landing_banner >h3{
+        font-size: 20px;
+        margin-top: -130px;
+    }
+    .arabhealth_landing_banner > a{
+        margin-top: -130px;
+        padding: 8px 15px 8px 15px;
+    }
+    
+     .header_travel {
+    padding-top: 45%;
+    padding-bottom: 68%;
+    display: table;
+    position: relative;
+    width: 100%;
+    background: url(../image/agentmain.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    }
+}
+@media (max-width: 1199px) {
+    #locations {
+        padding: 50px 0 20px 0;
+    }
+}
+@media (min-width: 1224px) {
+    .header {
+        padding-top: 0%;
+        padding-bottom: 0%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/landing.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .landing-text-background-colour-corporate {
+        width: 450px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 255px;
+        padding-left: 45px;
+    }
+
+    .corpo-banner-text {
+        font-size: 20px;
+        /*        margin-left: 5px;*/
+    }
+
+    .corpo-banner-text-subtext {
+        font-size: 28px;
+    }
+
+    .image-travel-sub {
+        width: 80px;
+        height: 80px;
+        margin-left: 60px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .landing-text-background-colour-responder {
+        width: 400px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 255px;
+        padding-left: 45px;
+    }
+
+    .responder-banner-text {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    .responder-banner-text-subtext {
+        font-size: 25px;
+    }
+
+    .image-responder-sub {
+        width: 80px;
+        height: 80px;
+        margin-left: 60px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .register_button-corpo {
+        margin-right: -13px;
+    }
+}
+@media only screen and (max-width : 1280px){
+    .arabhealth_landing_banner >h2{
+        margin-top:50px;
+    }
+    .arabhealth_landing_banner >h3{
+        margin-top: -50px;
+    }
+    .arabhealth_landing_banner > a{
+        margin-top: -50px;
+    }
+}
+@media only screen and (min-width: 1366px){
+    .statu-ul {
+        padding: 0px !important;
+    }
+    .youtubeVidPadding {
+        padding: 30px 0 30px 0px;
+    }
+}
+@media (min-width: 1440px) {
+    Styles .header {
+        padding-top: 28%;
+        padding-bottom: 10%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/landing.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .header_corporate {
+        padding-top: 25%;
+        padding-bottom: 30%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/corporatemain.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .landing-text-background-colour-corporate {
+        width: 550px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 100px;
+        padding-left: 45px;
+    }
+
+    .corpo-banner-text {
+        font-size: 24px;
+        margin-left: 5px;
+    }
+
+    .corpo-banner-text-subtext {
+        font-size: 30px;
+    }
+
+    .image-corpo-sub {
+        width: 80px;
+        height: 80px;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .corpo_join {
+        width: 100%;
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+
+    .image-travel-sub {
+        width: 80px;
+        height: 80px;
+        margin-left: 70px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .travel_paragraph {
+        color: #fff;
+        text-align: center;
+        text-align: justify;
+        font-size: 14px;
+        margin-top: 10px;
+        word-spacing: -1px;
+        margin-bottom: 20px;
+    }
+
+    .travel-join {
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    .header_responder {
+        padding-top: 25%;
+        padding-bottom: 30%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/respondermain.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .landing-text-background-colour-responder {
+        width: 500px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 130px;
+        padding-left: 45px;
+    }
+
+    .responder-banner-text {
+        font-size: 24px;
+        margin-left: 5px;
+    }
+
+    .responder-banner-text-subtext {
+        font-size: 30px;
+    }
+
+    .image-responder-sub {
+        width: 80px;
+        height: 80px;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .responder_join {
+        width: 100%;
+        margin-bottom: 140px;
+        margin-top: 40px;
+    }
+}
+@media (min-width: 1680px) {
+    Styles .header {
+        padding-top: 28%;
+        padding-bottom: 10%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/landing.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .header_travel {
+        padding-top: 20%;
+        padding-bottom: 51%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/agentmain.png) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    .header_corporate {
+        padding-top: 25%;
+        padding-bottom: 30%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/corporatemain.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    .landing-text-background-colour-corporate {
+        width: 550px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 130px;
+        padding-left: 45px;
+    }
+
+    .image-corpo-sub {
+        width: 80px;
+        height: 80px;
+        margin-left: 128px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .corpo-title {
+        color: #fff;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .corpo-title-sub {
+        color: #d50000;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .corpo-title-content {
+        color: #fff;
+        text-align: center;
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 30px;
+        word-spacing: -1px;
+        margin-bottom: 30px;
+    }
+
+    .register_button-corpo {
+        float: right;
+        border: none !important;;
+        background: #e24449 !important;
+        color: #fff !important;
+        height: 35px;
+        width: 80px;
+    }
+
+    .corpo_join {
+        width: 100%;
+        margin-bottom: 80px;
+        margin-top: 50px;
+    }
+
+    .landing-text-background-colour_travel {
+        width: 500px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 255px;
+        margin-left: 14px;
+    }
+
+    .travel_paragraph {
+        color: #fff;
+        text-align: center;
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 23px;
+        word-spacing: -1px;
+        margin-bottom: 30px;
+    }
+
+    .travel_agent {
+        color: #fff;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    .travel-join {
+        width: 100%;
+        margin-bottom: 38px;
+        margin-top: 30px;
+    }
+
+    .register_button-travel {
+        float: right;
+        border: none !important;;
+        background: #e24449 !important;
+        color: #fff !important;
+        height: 34px;
+        width: 100px;
+        margin-right: 0px;
+    }
+
+    .landing_image_text_H1 {
+        color: #4D4A4A;
+        float: left;
+        margin-left: 65px;
+        margin-left: 65px;
+        margin-bottom: 20px;
+        margin-top: 2px;
+
+    }
+
+    .header_responder {
+        padding-top: 25%;
+        padding-bottom: 30%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/respondermain.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .landing-text-background-colour-responder {
+        width: 550px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 130px;
+        padding-left: 45px;
+    }
+
+    .image-responder-sub {
+        width: 80px;
+        height: 80px;
+        margin-left: 118px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .responder-title {
+        color: #fff;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .responder-title-sub {
+        color: #d50000;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .responder-title-content {
+        color: #fff;
+        text-align: center;
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 30px;
+        word-spacing: -1px;
+        margin-bottom: 30px;
+    }
+
+    .register_button-responder {
+        float: right;
+        border: none !important;;
+        background: #e24449 !important;
+        color: #fff !important;
+        height: 35px;
+        width: 80px;
+    }
+
+    .responder_join {
+        width: 100%;
+        margin-bottom: 140px;
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width: 1821px){
+    .header_travel {
+        padding-top: 24%;
+        padding-bottom: 42%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/agentmain.png) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    }
+@media (min-width: 1824px) {
+    .header {
+        padding-top: 28%;
+        padding-bottom: 10%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/landing.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .corpo-title {
+        color: #fff;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .corpo_join {
+        width: 100%;
+        margin-bottom: 90px;
+        margin-top: 70px;
+        height: 40px;
+    }
+
+    .landing-text-background-colour-corporate {
+        width: 550px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 170px;
+        padding-left: 45px;
+    }
+
+    .landing-text-background-colour_travel {
+        width: 550px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 14px;
+    }
+
+    .travel-join {
+        width: 100%;
+        /*margin-bottom: 150px;*/
+        margin-top: 70px;
+        height: 40px;
+    }
+
+    .responder-title {
+        color: #fff;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .responder_join {
+        width: 100%;
+        margin-bottom: 160px;
+        margin-top: 70px;
+        height: 40px;
+    }
+
+    .landing-text-background-colour-responder {
+        width: 550px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 170px;
+        padding-left: 45px;
+    }
+
+    .image-responder-sub {
+        width: 80px;
+        height: 80px;
+        margin-left: 128px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 1900px) {
+    Styles .header {
+        padding-top: 28%;
+        padding-bottom: 10%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/landing.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .header_travel {
+        padding-top: 23%;
+        padding-top: 25%;
+        padding-bottom: 40%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/agentmain.png) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .header_corporate {
+        padding-top: 26%;
+        padding-bottom: 30%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/corporatemain.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .corpo-title {
+        color: #fff;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .image-corpo-sub {
+        width: 80px;
+        height: 80px;
+        margin-left: 128px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .landing-text-background-colour-corporate {
+        width: 600px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 160px;
+        padding-left: 45px;
+    }
+
+    .corpo-title-sub {
+        color: #d50000;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .corpo-title-content {
+        color: #fff;
+        text-align: center;
+        text-align: justify;
+        font-size: 17px;
+        margin-top: 20px;
+        word-spacing: -1px;
+        margin-bottom: 30px;
+    }
+
+    .corpo_join {
+        width: 100%;
+        margin-bottom: 110px;
+        margin-top: 30px;
+        height: 85px;
+        font-size: 30px;
+    }
+
+    .corpo_note {
+        font-size: 16px;
+    }
+
+    .register_button-corpo {
+        float: right;
+        border: none !important;;
+        background: #e24449 !important;
+        color: #fff !important;
+        height: 35px;
+        width: 100px;
+    }
+
+    .landing-text-background-colour_travel {
+        width: 570px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 244px;
+        text-align: left;
+        margin-left: 14px;
+    }
+
+    .landing_image_text_H1 {
+        color: #4D4A4A;
+        float: left;
+        margin-left: 30px;
+        font-size: 34px;
+    }
+
+    .landing_image_text1 {
+        margin-left: 30px;
+        font-size: 25px;
+    }
+
+    .travel-join {
+        width: 100%;
+        margin-bottom: 90px;
+         margin-top: 30px;
+         height: 44px;
+         font-size: 26px;
+    }
+
+    .image-travel-sub {
+        width: 80px;
+        height: 80px;
+        margin-left: 110px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .header_responder {
+        padding-top: 25%;
+        padding-bottom: 30%;
+        display: table;
+        position: relative;
+        width: 100%;
+        background: url(../image/respondermain.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .responder-title {
+        color: #fff;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .image-responder-sub {
+        width: 80px;
+        height: 80px;
+        margin-left: 130px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .landing-text-background-colour-responder {
+        width: 600px;
+        margin: 0px auto;
+        background-color: #D0CECE;
+        position: absolute;
+        margin-top: 160px;
+        padding-left: 45px;
+    }
+
+    .responder-title-sub {
+        color: #d50000;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .responder-title-content {
+        color: #fff;
+        text-align: center;
+        text-align: justify;
+        font-size: 17px;
+        margin-top: 20px;
+        word-spacing: -1px;
+        margin-bottom: 30px;
+    }
+
+    .responder_join {
+        width: 100%;
+        margin-bottom: 80px;
+        margin-top: 30px;
+        height: 86px;
+        font-size: 30px;
+    }
+
+    .responder_note {
+        font-size: 16px;
+    }
+
+    .register_button-responder {
+        float: right;
+        border: none !important;;
+        background: #e24449 !important;
+        color: #fff !important;
+        height: 35px;
+        width: 100px;
+        margin-right: -22px;
+    }
+
+    .font-size-responder {
+        font-size: 12px;
+    }
+
+    .responder-banner-text {
+        font-size: 28px;
+        margin-left: 5px;
+    }
+
+    .responder-banner-text-subtext {
+        font-size: 35px;
+    }
+    .travel_paragraph {
+        color: #fff;
+        text-align: center;
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 18px;
+        word-spacing: -1px;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 1900px){
+    .statu-ul {
+        position: absolute;
+        padding-top: 157px !important;
+    }
+    .youtubeVidPadding {
+        padding: 30px 0 30px 120px;
+    }
+}
